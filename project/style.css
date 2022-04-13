@@ -1,0 +1,104 @@
+/*Прижатие футера*/
+* {
+    margin: 0;
+    padding: 0;
+}
+
+html,
+body {
+    height: 100%;
+}
+
+.wrapper {
+    display: flex;
+    flex-direction: column;
+    min-height: 100%;
+}
+
+.content {
+    flex: 1 0 auto;
+}
+
+.footer {
+    flex: 0 0 auto;
+}
+
+
+h1 {
+    color: blue;
+    text-align: center;
+}
+
+
+a {
+    text-decoration: none;
+}
+
+
+ul {
+    list-style: none;
+}
+
+
+a:hover {
+    color: blue;
+    font-size: 20px;
+}
+
+
+.menu ul {
+    display: flex;
+    justify-content: space-around;
+}
+
+
+.menu li {
+    padding: 10px
+}
+
+
+.menu {
+    background-color: yellow;
+    height: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+
+.forma {
+    display: flex;
+    height: 200px;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    
+}
+
+.vvod {
+    display: flex;
+    justify-content: center;
+}
+
+
+.blocks {
+    display: flex;
+    height: 500px;
+    width: 1000px;
+    padding-left: 300px;
+}
+
+.blocks ul {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+
+.blocks ul a {
+    width: 250px;
+}
+
+
+.blocks ul a li {
+    text-align: center;
+}
