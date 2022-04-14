@@ -1,0 +1,138 @@
+body {
+    background-color: white;
+}
+
+
+/*Прижатие футера*/
+* {
+    margin: 0;
+    padding: 0;
+}
+
+html,
+body {
+    height: 100%;
+}
+
+.wrapper {
+    display: flex;
+    flex-direction: column;
+    min-height: 100%;
+}
+
+.content {
+    flex: 1 0 auto;
+}
+
+.footer {
+    flex: 0 0 auto;
+}
+
+/*-----------------------*/
+
+.ico img {
+    height: 80px;
+}
+
+/*-------------------------*/
+
+.menuvertical {
+    width: 90px;
+    height: 450px;
+    position: fixed;
+    padding: 80px;
+    border-style: groove;
+}
+
+.menuvertical ul {
+    list-style: none;
+    display: block;
+    width;
+    60px;
+    height: auto;
+    margin;
+    0;
+    padding: 0;
+}
+
+.menuvertical ul li ul {
+    position: absolute;
+    top: 0px;
+    left: 60px;
+    display: none;
+    width: auto;
+    padding: 20px;
+    margin: 20px;
+}
+
+.menuvertical ul li:hover ul {
+    display: block;
+}
+
+.menuvertical ul li ul li a:hover {
+    background-color: #20B2AA;
+    color: #fff;
+
+}
+
+/*------------------------------------------*/
+.blocks {
+    display: flex;
+    height: 500px;
+    width: 1000px;
+    padding-left: 300px;
+    padding-top: 300px;
+    flex-direction: column;
+}
+
+.blocks ul {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+
+.blocks ul a {
+    width: 250px;
+}
+
+
+.blocks ul a li {
+    text-align: center;
+    list-style: none;
+}
+
+.frameblock {
+    border-bottom-color: grey;
+    border-bottom-width: 1px;
+    border-bottom-style: solid;
+}
+
+.glvn {
+    display: flex;
+    margin-left: 300px;
+    justify-content: center;
+    padding-top: 30px
+}
+
+.inform {
+    display: flex;
+    margin-left: 300px;
+    justify-content: center;
+
+}
+
+.footer {
+    flex: 0 0 auto;
+}
+
+h1 {
+    color: blue;
+    text-align: center;
+    height: 100px;
+}
+
+
+.forma {
+    padding-left: 300px;
+}
+
