@@ -1,7 +1,11 @@
 body {
     background-color: white;
+    font-family: 'Whisper', cursive;
 }
 
+a {
+    text-decoration: none;
+}
 
 /*Прижатие футера*/
 * {
@@ -12,6 +16,7 @@ body {
 html,
 body {
     height: 100%;
+    background-color: #9999FF
 }
 
 .wrapper {
@@ -22,6 +27,10 @@ body {
 
 .content {
     flex: 1 0 auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
 }
 
 .footer {
@@ -41,7 +50,7 @@ body {
     height: 450px;
     position: fixed;
     padding: 80px;
-    border-style: groove;
+    background-color: #FF9966;
 }
 
 .menuvertical ul {
@@ -80,14 +89,15 @@ body {
     display: flex;
     height: 500px;
     width: 1000px;
-    padding-left: 300px;
-    padding-top: 300px;
     flex-direction: column;
+    background-color: white;
+    align-items: center;
 }
 
 .blocks ul {
     display: flex;
     flex-wrap: wrap;
+    padding-top: 50px;
 }
 
 
@@ -129,10 +139,101 @@ h1 {
     color: blue;
     text-align: center;
     height: 100px;
+    padding-top: 100px;
 }
 
 
 .forma {
-    padding-left: 300px;
+    width: 500px;
+    height: 300px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background: cornflowerblue;
+    box-shadow: 5px 20px 50px rgba(16, 112, 177, 0.2);
+    border-radius: 10px;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 26px;
+    text-align: center;
+    color: #FFFFFF;
+    text-transform: uppercase;
 }
 
+/*
+.bordergl li span big {
+    border-style: groove;
+    border-width: 3px;
+    border-color: #99ff99;
+    padding-right: 800px
+}
+*/
+
+.borderngl {
+    border-style: groove;
+    border-width: 3px;
+    border-color: #99ff99;
+    width: 500px;
+    margin-top: 10px;
+    padding-left: 10px;
+}
+
+.borderngl a {
+    text-decoration: none;
+}
+
+
+.borderngl li {
+    list-style: none;
+}
+
+
+.bordergl {
+    border-style: groove;
+    border-width: 3px;
+    border-color: #99ff99;
+    width: 550px;
+    margin-top: 30px;
+    padding-left: 10px;
+}
+
+
+.bordergl a {
+    text-decoration: none;
+}
+
+
+.bordergl li {
+    list-style: none;
+}
+
+
+.module ul {
+    padding-left: 50px;
+}
+
+.input {
+    border: 1px solid #356EAD;
+    box-sizing: border-box;
+    border-radius: 10px;
+    opacity: 0.4;
+    height: 30px;
+    width: 250px;
+    padding-top: 10px;
+    padding-left: 10px;
+    padding-right: 15px;
+    padding-bottom: 15px;
+}
+
+.send {
+    background: #FF9966;
+    box-shadow: 5px 20px 50px rgba(16, 112, 177, 0.2);
+    border-radius: 10px;
+    line-height: 26px;
+    text-align: center;
+    color: #FFFFFF;
+    text-transform: uppercase;
+    width: 100px;
+    margin-top: 10px;
+}
